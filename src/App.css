@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+}
+
+.subtitle
+{
+    color: #f1f1f1;
+    font-family: Poppins-SemiBold;
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.slider_p{
+    color: #f1f1f1;
+    font-family: Raleway-Regular;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bottom_line{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    width: 70px;
+    height: 2px;
+    margin: 0 auto;
+    /* background-image: linear-gradient(to bottom left, #2caeff, #2eb584); */
+    background-image: linear-gradient(to bottom left, #e4ce15, #ff8f05);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.gallery_p_tag{
+    color: #f1f1f1;
+    text-align: center;
+    font-family: Poppins-Medium;
+}
