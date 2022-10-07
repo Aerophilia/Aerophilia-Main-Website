@@ -1,0 +1,32 @@
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-btn{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+    filter: invert(i);
+    background-color: #212121;
+}
+
+@media screen and (max-width:680px) {
+    iframe{
+        height: 230px;
+        width: 370px;
+    }
+}

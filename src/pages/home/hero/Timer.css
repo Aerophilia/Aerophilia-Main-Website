@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Timer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    position: relative;
+    margin: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+  }
+  
+  .clock section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-right: 0px;
+  }
+
+.clock section p {
+    font-size: 2rem;
+    height: 83px;
+    width: 79px;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: #0c0d0f49;
+    line-height: .8;
+    padding: 12px 0;
+    font-family: Poppins-SemiBold;
+}
+  
+.clock section small {
+    color: #f1f1f1;
+    text-shadow: none;
+    font-size: 2.4vmin;
+    font-family: iceland;
+}
+  
+.timer-container h3{
+    color: #f1f1f1;
+    font-family: iceland;
+    font-size: 3vmax;
+    margin-bottom: 1.rem;
+}
+
+@media screen and (max-width:800px) {
+    .Timer{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .clock section p {
+       font-size: 1.6rem;
+       width: 69px;
+       height: 69px;
+    }
+
+    .clock section {
+        margin-right: -20px;
+    }
+
+    .timer-container h3{
+        font-size: 5vmax;
+        margin-bottom: 0rem;
+    }
+
+    .clock section small{
+        font-size: 4vmin;
+    }
+    
+}
